@@ -42,4 +42,4 @@ const options = {
   )
 }
 
-export default page
+export default page;
