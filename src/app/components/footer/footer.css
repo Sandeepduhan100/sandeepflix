@@ -1,0 +1,10 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    background: darkcyan;
+    color: white;
+    font-family: cursive;
+    font-size: x-large;
+    margin-top: 20px;
+
+}

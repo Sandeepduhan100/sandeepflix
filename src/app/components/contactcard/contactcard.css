@@ -1,0 +1,36 @@
+.grid-card{
+    border-radius: 38px;
+    background: #e0e0e0;
+    box-shadow: 3px 3px 7px #fdfdfd, -3px -3px 7px #fdfdfd;
+ 
+  
+    border: none;
+    color: darkgray;
+
+    background: transparent;
+    color: rgb(237, 21, 89);
+    padding: 25px;
+     
+   
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 16px;
+
+}
+.grid{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;text-align: center;
+    margin-top: 16px;
+}
+
+@media (max-width: 768px){
+    .grid{
+        display:flex;
+        flex-direction: column;
+       
+        margin-bottom: 20px;
+    }
+}
