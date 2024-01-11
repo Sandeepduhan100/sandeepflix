@@ -27,7 +27,7 @@ const options = {
        </div>
        <div className="card-section">
         <div>
-          <Image src={main_data.backgroundImage.url} width={460} height={300} />
+          <Image src={main_data.backgroundImage.url} width={460} height={300} alt='IMAGE' />
         </div>
         <div>
           <h1>{main_data.title}</h1>

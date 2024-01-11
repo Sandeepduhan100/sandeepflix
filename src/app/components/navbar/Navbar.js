@@ -3,6 +3,7 @@ import Link from 'next/link'
 import React from 'react'
 import './navbar.css'
 import { useState } from 'react'
+import Image from 'next/image'
 
 function Navbar() {
     const [open,setOpen]=useState(false)
@@ -30,7 +31,7 @@ function Navbar() {
         </div>
 
 
-        <img className='menubutton' src="../menu.png" alt="" onClick={() => setOpen(prev => !prev)} width={30} height={30} />
+        <Image className='menubutton' src="/menu.png" alt="" onClick={() => setOpen(prev => !prev)} width={30} height={30} />
             {
                 open && 
                     <ul className='mobilelinks'>

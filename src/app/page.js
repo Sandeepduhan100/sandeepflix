@@ -5,7 +5,7 @@ import Herosection from './components/herosection/Herosection'
 function Page() {
   return (
     <div>
-     <Herosection title={"Lets watch movie together"} imageUrl={"./home.jpg"} />
+     <Herosection title={"Lets watch movie together"} imageUrl={"/home.jpg"} />
     </div>
   )
 }

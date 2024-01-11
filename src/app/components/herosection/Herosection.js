@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 import './herosection.css'
+import Image from 'next/image'
 
 function Herosection({title,imageUrl}) {
   return (
@@ -14,7 +15,7 @@ function Herosection({title,imageUrl}) {
         </Link>
      </div> 
      <div className='hero-image'>
-     <img src={imageUrl} alt="" height={260}width={400} />
+     <Image src={imageUrl} alt="" height={260}width={400} />
      </div>
 
     </div>

@@ -6,7 +6,7 @@ import Herosection from '../components/herosection/Herosection'
 function Page() {
   return (
     <div>
-    <Herosection title={"OUR STORY"} imageUrl={"./about.jpg"} />
+    <Herosection title={"OUR STORY"} imageUrl={"/about.jpg"} />
     </div>
   )
 }
