@@ -13,7 +13,7 @@ function Header() {
               
                 <Link href='/'>
                 
-                <Image src="/sandeepflix.png" alt="img" width={190} height={100} />
+                <Image src="/sandeepflix.png" alt="img" width={150} height={100} />
 
                 </Link>
             </div>
